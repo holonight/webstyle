@@ -1,0 +1,101 @@
+
+h3 {  
+font-size:18px; font-weight:400;
+
+}
+
+p { font-size:14px; }
+
+h2 { font-size:32px; font-weight:400px; text-transform:uppercase;  }
+
+body { font-family: 'Roboto', sans-serif;
+  }
+
+.navbar  { background-color:#ffc107;
+	}
+	
+.nav-link:hover  {
+ color:#CCC; 
+ transition: .5s ease;  /* buda 1 saniye sonra renk değiştir demek.  */
+	 
+	}
+	
+#headersection  {
+ background:url(../images/headersection.jpg) no-repeat center fixed; 
+ background-size:cover;
+ height:100vh;
+	
+	}
+	
+
+#headersection .overlay {
+	background-color: rgba(0,0,0,.3);
+	
+	 }
+	 
+#headersection .row {
+	height:100vh;
+
+	}
+	
+#headersection span { 
+ color:#fed136; !important /* important yazmak zourndayız  */
+
+}
+
+.btn btn-outline-warning {
+	padding-left:30px; padding-right:30px;
+	border-radius:20;
+	cursor:pointer;
+	
+	}
+	
+#features .fa {
+	
+	 font-size:40px;
+
+	
+	}
+	
+.feature-top:hover {
+	transition:0.3s;
+	 cursor:pointer;
+	 color:#fed136;
+	
+	}
+
+#ourhistory h2 {
+	border-left:6px solid #fed136;
+	padding-left:30px;
+	}
+	
+#ourhistory .col-md-6 {
+	 display:inline;
+
+	}
+#ourhistory .btn-outline-warning {
+	 position:absolute; 
+	 bottom: 0;
+	}
+
+#ourhistory p { line-height:28px;
+	
+	}
+	
+#teamsection .card { /* Team section içinde ki .card a bunları uygula bordersiz olacak opacity düşük olacak hover vereceğiz çünkü */
+
+border:none;
+opacity:0.5;
+cursor:pointer;
+transition:all 0.5s ease;
+}
+
+#teamsection .card:hover { opacity:1; } /* üzerine gelince opacity'in değişmesi için yaptık*/
+
+#teamsection .fa { font-size:24px; color:#ffc107;
+
+ }
+ 
+ . fa-envelope { color:#ffc107; }
+ 
+ 

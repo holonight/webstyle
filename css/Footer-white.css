@@ -1,0 +1,108 @@
+#footerim{
+    padding-top:0px;
+	
+}
+
+#footerim .container{
+    text-align: center;
+	
+}
+
+#footerim .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#footerim ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#footerim a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#footerim li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#footerim .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #343a40;
+}
+
+#footerim .fa{ /* simge kutusu arka plan rengi ve efekt yanma süresi  */
+    font-size: 36px; 
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #ffc107;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#footerim .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#footerim .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+#footerim .fa-google-plus:hover{
+    color:red;
+}
+
+#footerim .fa-google-plus:focus{
+    color:red;
+}
+
+#footerim .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#footerim .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#footerim{
+   flex: 0 0 auto;
+   -webkit-flex: 0 10 auto;
+}
